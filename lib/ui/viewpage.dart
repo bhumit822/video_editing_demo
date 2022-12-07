@@ -36,6 +36,7 @@ class _VideoEditingViewState extends State<VideoEditingView> {
 
   final booksDir = Directory("/storage/emulated/0/ccc/thumbnail");
   bool isDirectoryExistent = false;
+
   List<String> thumbs = [];
   bool isVideo = false;
   ScrollController _scrollController = ScrollController();
